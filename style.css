@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #cfe8e5;
+  background-image: url("vangogh.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
