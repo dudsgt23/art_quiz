@@ -17,9 +17,10 @@ body {
 }
 
 .container {
-  background-color: black;
+  background-color: rgba(255, 255, 255);
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  color: black;
   width: 100%;
   max-width: 600px;
   overflow: hidden;
@@ -40,13 +41,13 @@ body {
 /* START SCREEN */
 
 #start-screen h1 {
-  color: #5c73e4;
+  color: #1544b1;
   margin-bottom: 20px;
   font-size: 2.5rem;
 }
 
 #start-screen p {
-  color: #666;
+  color: #2d2d2d;
   margin-bottom: 30px;
   font-size: 1.1rem;
 }
@@ -56,7 +57,7 @@ body {
 }
 
 #question-text {
-  color: #333;
+  color: #000000;
   font-size: 1.5rem;
   margin-bottom: 1rem;
   line-height: 1.4;
@@ -146,7 +147,7 @@ body {
 }
 
 button {
-  background-color: #262fd0;
+  background-color: #11369c;
   color: white;
   border: none;
   border-radius: 10px;
