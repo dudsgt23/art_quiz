@@ -16,12 +16,12 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "Qual comida a gente, provavelmente, mais saiu para comer?",
+    question: "Quem pintou este quadro?",
     answers: [
-      { text: "Caviar", correct: false },
-      { text: "Pizza", correct: true },
-      { text: "Hamburguer", correct: false },
-      { text: "Filé Mignon", correct: false },
+      { text: "Monet", correct: false },
+      { text: "Picasso", correct: false },
+      { text: "Caravaggio", correct: false },
+      { text: "Van Gogh", correct: true },
     ],
   },
   {
@@ -43,6 +43,23 @@ const quizQuestions = [
     ],
   },
   {
+    question: "Opções de dates legais: 🌹🌹",
+    answers: [
+      { text: "Massagem", correct: false },
+      { text: "Jantarzinho delis", correct: false },
+      { text: "Conversar na varanda", correct: false },
+      { text: "Todas opções acima", correct: true },
+    ],
+  },
+  {
+    question: "Opções de dates legais: 🌹🌹",
+    answers: [
+      { text: "Massagem", correct: false },
+      { text: "Jantarzinho delis", correct: false },
+      { text: "Conversar na varanda", correct: false },
+      { text: "Todas opções acima", correct: true },
+    ],
+  },  {
     question: "Opções de dates legais: 🌹🌹",
     answers: [
       { text: "Massagem", correct: false },
